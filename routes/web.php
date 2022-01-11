@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\IndexController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+//---------------------------------RUTAS CON ZIGGY-------------------------------
+Route::GET('/', [IndexController::class, 'Welcome'])->name('prin.welcome');
