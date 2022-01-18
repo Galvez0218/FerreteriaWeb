@@ -289,16 +289,16 @@ h1.nombre-sitio span {
 /** Header **/
 
 div.hero {
-    background-image: url(/images/encabezado.jpg);
-    height: 600px;
+    background-image: url(/images/02.jpeg);
+    height: 650px;
     background-position: top center;
     background-size: cover;
 }
 
 @media only screen and (min-width: 768px) {
-    div.hero {
+    /* div.hero {
         height: 100vh;
-    }
+    } */
 }
 
 div.contenido-header {
